@@ -1,5 +1,5 @@
-import styled from "styled-components"
+// import styled from "styled-components"
 
-export const HeaderContainer = styled.div`
-background-color: yellow;
-`
+// export const HeaderContainer = styled.div`
+// background-color: yellow;
+// `
