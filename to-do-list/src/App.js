@@ -6,6 +6,8 @@ import styled from 'styled-components';
 
 
 export const AppContainer = styled.div`
+/* width:100%;
+right:100%; */
 padding: 100px;
 background-color:limegreen;
 `

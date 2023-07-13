@@ -32,10 +32,13 @@ export function Card() {
                 <div className="left">
                     <button className="btn_menu"> <img className="menu" src={menu} alt='menu' /> </button>
                     <img className="logo" src={tarefas} alt="logotype" />
-                    <a>ListMe</a>
+                    <h1>ListMe</h1>
                 </div>
 
+                <div className="search">
+                <a><img src={search} alt="search"/></a>
                 <input type="search" placeholder="Pesquisar"></input>
+                </div>
 
                 <div className="rigth">
                     <button className="update" > <img src={update} alt="updade" /></button>

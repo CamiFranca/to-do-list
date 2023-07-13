@@ -33,6 +33,9 @@ export const CardContainer = styled.div`
         width:33px;
         margin-right:18px;
     }
+    h1{
+        color:lightgray;
+    }
   }
   .rigth{
     width:30%;
@@ -68,17 +71,37 @@ export const CardContainer = styled.div`
         /* border-style:outset; */
    
     }
-
+.search{
+        width:65%;
+        display:flex;
+        align-items:center;
+        
     input{
        outline:none;
-       width:65%;
        height:6vh;
        padding-left:21px;
        border:none;
-       border-radius: 9px;
        background-color: lightgrey;
+       width:90%;
+       border-radius: 0px 9px 9px 0px;
        /* box-shadow:5px 5px 5px 5px ; */
     }
+  
+   
+}
+a{
+        height:6vh;
+        width:41px; 
+        background-color: lightgrey;
+        border-radius: 9px 0px 0px 9px;
+
+        img{
+        height:33px;
+        width:33px; 
+        margin:9px 0px 0px 9px;
+       
+    }
+    } 
   
 }
 `
