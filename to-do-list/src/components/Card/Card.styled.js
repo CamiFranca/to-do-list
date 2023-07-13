@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const CardContainer = styled.div`
-    height:100%;
+    /* height:100%; */
     width:100%;
     display:flex;
 
@@ -14,6 +14,7 @@ export const CardContainer = styled.div`
         background-color:white;
         height:10vh;
         width:100%;
+        background-color:orange;
 
     .left{
     width:25%;

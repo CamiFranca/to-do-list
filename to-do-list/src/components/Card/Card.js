@@ -46,6 +46,7 @@ export function Card() {
                     <img className="picture_user" src={user_woman} alt="picture_user" />
                 </div>
             </div>
+            
         </CardContainer>
     )
 }
