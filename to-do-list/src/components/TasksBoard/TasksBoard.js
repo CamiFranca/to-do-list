@@ -11,12 +11,14 @@ export function TasksBoard (){
 
     return (
         <TaskBoardContainer>
-        <div>
+        <div className="centreCard">
+
         <div className="list">
             <h1>Comprar</h1>
-            <span>ovos</span>
-            <span>maçã</span>
+            
+            <textarea>ovos</textarea>
         </div>
+
         <div className="icons">
             <img src={bells} alt=""/>
             <img src={addUser} alt=""/>
@@ -24,6 +26,7 @@ export function TasksBoard (){
             <img src={iconPhoto} alt=""/>
             <img src={folder} alt=""/>
         </div>
+        
         </div>
         </TaskBoardContainer>
     )
