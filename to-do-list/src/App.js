@@ -13,8 +13,10 @@ width: 100vw;
 height: 100vh;
 background-color:limegreen;
 display:flex;
-flex-direction:column;
-/* overflow-y: auto; */
+/* flex-direction:column;
+justify-content: center;
+align-items:center; */
+
 `
 
 export function App() {
@@ -24,8 +26,8 @@ export function App() {
             {/* <Card />
             <CreateUser />
             <TasksList /> */}
-            <TasksBoard/>
-            {/* <LoginUser/> */}
+            {/* <TasksBoard/> */}
+            <LoginUser/>
         </AppContainer>
 
     )

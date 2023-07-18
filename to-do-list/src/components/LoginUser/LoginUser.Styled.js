@@ -1,10 +1,13 @@
 import styled from "styled-components"
 
 export const LoginUserContainer = styled.div`
-background-color: red;
+height:100%;
+width:100%;
 display:flex;
+align-items:center;
 justify-content:center;
-height:30%;
+background-color:white;
+
 .login{
 background-color: lightblue; 
 display:flex;
@@ -14,8 +17,8 @@ align-items: center;
 justify-content:center;
 padding: 36px;
 border-radius: 3px;
-width:30%;
-height:100%;
+width:90%;
+height:90%;
 }
 
 
@@ -30,7 +33,7 @@ form{
     display:flex;
     justify-content: center;
     flex-direction:column;  
-
+    /* height:100%; */
 
     input{
         margin-bottom:12px; 
