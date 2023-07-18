@@ -4,7 +4,7 @@ export const LoginUserContainer = styled.div`
 background-color: red;
 display:flex;
 justify-content:center;
-
+height:30%;
 .login{
 background-color: lightblue; 
 display:flex;
@@ -15,7 +15,7 @@ justify-content:center;
 padding: 36px;
 border-radius: 3px;
 width:30%;
-
+height:100%;
 }
 
 
@@ -38,6 +38,8 @@ form{
         width: 15vw;
         border:none;
         outline:none;
+      
+
     }
 }
 

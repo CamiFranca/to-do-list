@@ -14,17 +14,18 @@ height: 100vh;
 background-color:limegreen;
 display:flex;
 flex-direction:column;
+/* overflow-y: auto; */
 `
 
 export function App() {
     return (
         <AppContainer>
             <GlobalStyle />
-            <Card />
+            {/* <Card />
             <CreateUser />
-            <TasksList />
+            <TasksList /> */}
             <TasksBoard/>
-            <LoginUser/>
+            {/* <LoginUser/> */}
         </AppContainer>
 
     )
