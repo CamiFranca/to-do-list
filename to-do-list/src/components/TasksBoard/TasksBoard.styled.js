@@ -28,12 +28,12 @@ padding:15px;
         max-height:80%;
         border:none;
         outline:none;
-        appearance:none;
+        /* appearance:none; */
         resize: none;
         background-color:blueviolet;
-        height: auto;
-        max-height: 200px;
-        overflow-y: auto;
+        /* height: auto;
+        max-height: 200px; */
+        /* overflow-y: auto; */
     }
 }
 
