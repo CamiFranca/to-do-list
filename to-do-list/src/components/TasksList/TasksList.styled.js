@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
 export const TasksListContainer = styled.div`
-width:21%;
-/* height:100%; */
+width:30%;
+height:20%;
 background-color: yellow;
 
 .side{

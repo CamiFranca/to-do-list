@@ -39,7 +39,7 @@ export function CreateUser() {
     
     return (
         <CreateUserContainer>
-            <h1>Cria um usuário</h1>
+          
             <form onSubmit={addUser}>
                 <input value={name}
                     onChange={handleName}

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TaskBoardContainer = styled.div`
 width: 15%;
-height:220px;
+height:20%;
 display:flex;
 flex-direction:column;
 border-radius:3px;
@@ -25,10 +25,15 @@ padding:15px;
     }
     textarea{
         width: 100%;
+        max-height:80%;
         border:none;
         outline:none;
+        appearance:none;
+        resize: none;
         background-color:blueviolet;
-        /* margin-bottom:6px; */
+        height: auto;
+        max-height: 200px;
+        overflow-y: auto;
     }
 }
 
