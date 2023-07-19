@@ -11,12 +11,12 @@ export function TasksBoard (){
 
     return (
         <TaskBoardContainer>
-        <div className="centreCard">
+        {/* <div className="centreCard"> */}
 
         <div className="list">
             <h1>Comprar</h1>
             
-            <textarea>ovos</textarea>
+            <textarea textCounter='2000' maxLength={2000} >ovos</textarea>
         </div>
 
         <div className="icons">
@@ -27,7 +27,7 @@ export function TasksBoard (){
             <img src={folder} alt=""/>
         </div>
         
-        </div>
+        {/* </div> */}
         </TaskBoardContainer>
     )
 }
