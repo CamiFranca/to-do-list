@@ -7,15 +7,23 @@ import { GlobalStyle } from './GlobalStyled';
 import { TasksList } from './components/TasksList/TasksList.js';
 import { TasksBoard } from './components/TasksBoard/TasksBoard';
 import { LoginUser } from './components/LoginUser/LoginUser';
+import { SideArea } from './components/SideArea/SideArea';
 
 export const AppContainer = styled.div`
 width: 100vw;
 height: 100vh;
 background-color:limegreen;
 display:flex;
-/* flex-direction:column;
-justify-content: center;
-align-items:center; */
+flex-wrap:wrap;
+>div{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:70%;
+    height:90%;
+    border: 1px solid yellow;
+}
+
 
 `
 
@@ -23,11 +31,13 @@ export function App() {
     return (
         <AppContainer>
             <GlobalStyle />
-            {/* <Card />
-            <CreateUser />
-            <TasksList /> */}
-            {/* <TasksBoard/> */}
-            <LoginUser/>
+            <Card />
+            <SideArea/>
+            {/* <CreateUser /> */}
+            {/* <TasksList /> */}
+            <div><TasksBoard/></div>
+            
+            {/* <LoginUser/> */}
         </AppContainer>
 
     )
